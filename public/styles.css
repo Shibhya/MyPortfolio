@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(40, 255, 40, 0.433)),url(https://cdn.dribbble.com/users/2284480/screenshots/15988331/media/9335cd177db6913a8059ffc9d0c20e11.gif);
+    font-family:Tahoma;
+    margin-bottom:1em;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: rgba(0, 0, 9, 1);
+    color:white;
+    width:100%;
+    height:100%;
+    background-position:center;
+}
+#title{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px green;
+}
+#description{
+        text-align: center;
+        font-size:25px;
+        font-style: italic;
+        color:white;
+        font-weight:500;
+}
+#survey-form{
+    background-color: rgba(0, 0, 0, 0.75);
+    max-width: 800px;
+    min-width: 480px; 
+     width:70vw;
+     margin:0 auto;
+     padding:2.5rem;
+     border-radius:10px;
+}
+label{
+    display:block;
+    margin:0.5rem 0;
+    font-size:20px;
+}
+input,textarea,select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: 2em;
+  font-size: 16px;
+  font-family: Tahoma;
+  display:block;
+  border-radius:7px;
+  border:3px solid green;
+}
+#Device{
+    height:1.5em;
+    display:inline-block;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+.genre{
+    width:unset;
+    display:inline-block;
+    height:1.5em;
+    vertical-align:middle;
+    margin: 0 0.5em 0 0;
+}
+.genre-container{
+    padding-bottom:1rem;
+}
+input[type="submit"] {
+    display: block;
+    width: 70%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(0, 126, 63);
+    border-color: white;
+    color:white;
+    min-width:300px;
+  }
+  .feedback{
+    height:5em;
+  }
+  #submit:hover{
+     background-color:forestgreen;
+  }
+  #submit:active{
+    background-color: blueviolet;
+  }
